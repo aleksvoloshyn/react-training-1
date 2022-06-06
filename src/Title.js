@@ -1,10 +1,9 @@
 import styled from 'styled-components'
-
+const OneMoreTitle = styled.h4`
+  color: plum;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+`
 const Title = ({ title = 'this is default title', className }) => {
-  const OneMoreTitle = styled.h4`
-    color: plum;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  `
   return (
     <>
       <h3 className={className}>{title}</h3>
