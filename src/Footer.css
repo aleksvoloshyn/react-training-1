@@ -1,0 +1,8 @@
+.footerTitle {
+  color: green;
+}
+
+.footerTitle:hover {
+  color: saddlebrown;
+  font-style: italic;
+}
