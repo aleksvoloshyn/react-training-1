@@ -2,6 +2,7 @@ import './App.css'
 import { Main } from './Main'
 import { Footer } from './Footer'
 import { Title } from './Title'
+import { ClassCmp } from './ClassCmp'
 
 const favouriteBooks = [
   { id: 'id-1', name: 'JS for beginners' },
@@ -20,6 +21,7 @@ function App() {
         <Title />
         <Title title="children title, styled with styled-components" />
         these are the children
+        <ClassCmp />
       </Main>
       <Footer name="footer" />
     </div>
