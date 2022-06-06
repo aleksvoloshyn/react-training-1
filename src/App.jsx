@@ -3,6 +3,7 @@ import { Main } from './Main'
 import { Footer } from './Footer'
 import { Title } from './Title'
 import { ClassCmp } from './ClassCmp'
+import MyForm from './Form'
 
 const favouriteBooks = [
   { id: 'id-1', name: 'JS for beginners' },
@@ -21,7 +22,9 @@ function App() {
         <Title />
         <Title title="children title, styled with styled-components" />
         these are the children
-        <ClassCmp />
+        {/* <ClassCmp /> */}
+        <ClassCmp initialValue={55} />
+        <MyForm />
       </Main>
       <Footer name="footer" />
     </div>
