@@ -23,7 +23,7 @@ function App() {
         <Title title="children title, styled with styled-components" />
         these are the children
         {/* <ClassCmp /> */}
-        <ClassCmp initialValue={55} />
+        <ClassCmp initialValue={20} />
         <MyForm />
       </Main>
       <Footer name="footer" />

@@ -34,7 +34,7 @@ class ClassCmp extends Component {
           onChange={this.handleChange}
         />
         <p>{this.state.value}</p>
-        <p>{this.state.num}</p>
+        <p>{this.state.num % 2 === 0 ? this.state.num : 'НЕПАРНОЕ'}</p>
         <button
           onClick={() => {
             this.setState((prev) => {
