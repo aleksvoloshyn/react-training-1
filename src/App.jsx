@@ -4,6 +4,10 @@ import { Footer } from './Footer'
 import { Title } from './Title'
 import { ClassCmp } from './ClassCmp'
 import MyForm from './Form'
+import MyFormHook from './formHooks'
+import UseRefHook from './UseRefHook'
+import UseFormTest from './UseForm'
+import NoFirstRender from './NotFirstRender'
 
 const favouriteBooks = [
   { id: 'id-1', name: 'JS for beginners' },
@@ -25,6 +29,15 @@ function App() {
         {/* <ClassCmp /> */}
         <ClassCmp initialValue={20} />
         <MyForm />
+        <br />
+        <br />
+        <MyFormHook />
+        <br />
+        <UseRefHook />
+        <br />
+        <UseFormTest />
+        <br />
+        <NoFirstRender />
       </Main>
       <Footer name="footer" />
     </div>
